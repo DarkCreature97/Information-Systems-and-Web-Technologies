@@ -1,24 +1,24 @@
 <html>
 	<head>
-	<link rel="stylesheet" href="Styles.css">
-    <link rel="shortcut icon" Type="image/x-icon" href="ICON.png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="shortcut icon" Type="image/x-icon" href="ICON.png">
 		<title>Department of Computer Science - ASP .NET Remote Development Environment</title>
 	</head>
 	
 	<body>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    <Center><img src="University-of-Hull-logo.jpg" width="500px"></Center>
-		<h1>Search User's Location</h1>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <Center><img src="University-of-Hull-logo.jpg" width="500px"></Center>
+        <h1>Search User's Location</h1>
 
-	<div class="formcontainer" align="Center">  
-	<form id="entry" action="SearchLocationData.php" method="get" name="submit" align="centre">
-    <h4> Submit User details </h4>
+        <div class="formcontainer" align="Center">  
+        <form id="entry" action="SearchLocationData.php" method="get" name="submit" align="centre">
+            <h4> Submit User details </h4>
             <select required name="location">
                 <option disbaled selected hidden value=""> Select Location </option>
                 <option value="Allam Building">Allam Building</option>
@@ -46,14 +46,14 @@
                 <option value="Wiske">Wiske</option>
                 <option value="Wolfson">Wolfson</option>
             </select>
-    </br>
-    </br>
-    <button name="submit" type="submit" id="entry-submit" data-submit="Submit my information" /> Submit </button>
-    </form>   
+            </br>
+            </br>
+            <button name="submit" type="submit" id="entry-submit" data-submit="Submit my information" /> Submit </button>
+        </form>   
 
-	<div id="buttons">
-		<a href="index.php" class="btn Home">Home</a>
-	</div>
+        <div id="buttons">
+            <a href="index.php" class="btn Home">Home</a>
+        </div>
 
 	</body>
 </html>

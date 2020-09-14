@@ -1,58 +1,50 @@
-body
-{
+body {
 	background-color: #1e90ec;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1
-{
+h1 {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-family: Lucida Sans Unicode;
 }
 
-input
-{
+input {
 	height: 25px;
 	width: 200px;
 	border: 5px solid white;
 }
 
-img
-{
-background-position:"Center";
+img {
+	background-position:"Center";
 }
 
-select
-{
+select {
 	height: 25px;
 	width: 200px;
 	border: 5px solid white;
 }
 
-table
-{
+table {
 	background-color: rgb(141, 144, 148);
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*buttons*/
 
-.link:hover 
-{
+.link:hover {
 	color: #2ecc71;
 	border-bottom: 2px dotted #2ecc71;
 }
 
 /* button div */
-#buttons 
-{
+#buttons {
 	padding-top: 50px;
 	text-align: center;
 }
 
-button{
+button {
 	background-color: #058610;
 	box-shadow: 0px 5px 0px 0px #08530e;
 	font-family: Arial, Helvetica, sans-serif;
@@ -61,8 +53,7 @@ button{
 	font-size: 20px;
 }
 
-.btn 
-{
+.btn {
 	border-radius: 5px;
 	padding: 15px 25px;
 	font-size: 22px;
@@ -74,32 +65,28 @@ button{
 	width: 110px;
 }
 
-.btn:active 
-{
+.btn:active {
 	transform: translate(0px, 5px);
 	-webkit-transform: translate(0px, 5px);
 	box-shadow: 0px 1px 0px 0px;
 	background-color: #e41d07;
 }
 
-.Home
-{
+.Home {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
 
-.submit
-{
+.submit {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
 
-.Edit
-{
+.Edit {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	width: 90px;
@@ -108,16 +95,14 @@ button{
 
 }
 
-.Search 
-{
+.Search {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
 
-.Fetch 
-{
+.Fetch {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
@@ -125,8 +110,7 @@ button{
 	font-size: 20px;
 }
 
-.ObtainData 
-{
+.ObtainData {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
@@ -134,8 +118,7 @@ button{
 	font-size: 20px;
 }
   
-.SearchLocation 
-{
+.SearchLocation {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
@@ -143,8 +126,7 @@ button{
 	font-size: 20px;
 }
 
-.UpdateLocation 
-{
+.UpdateLocation {
 	background-color: #f83924;
 	box-shadow: 0px 5px 0px 0px #CE3323;
 	font-family: Arial, Helvetica, sans-serif;
@@ -153,8 +135,7 @@ button{
 }
 
 
-.simple-tb 
-{
+.simple-tb {
 	color: white;
 	width:200px;
 	height:35px;
@@ -170,8 +151,7 @@ button{
 	background-color:transparent;
 }
   
-.simple-tb:hover 
-{
+.simple-tb:hover {
 	background-color:white;
 	border-radius:15px;
 	color:black;
